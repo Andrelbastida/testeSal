@@ -9,7 +9,10 @@ body{
         background-color: rgb(2, 32, 65);
         margin: 0;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
         margin-top: 0px;
 }
 #logos{
@@ -37,7 +40,7 @@ ul{
 
 header {
     border: solid;
-    width: 1100px;
+    width: 80vw;
     background-color: #94c7f4;
     
 }
@@ -47,3 +50,56 @@ a:hover{
     box-shadow: 0px 1.5px 0px rgb(2, 32, 65) ;
     cursor: pointer;
 }
+
+section{
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    width: 80vw;
+    height: 100vh;
+    background-color: #94c7f4;
+}
+
+
+
+// Imagens :
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 40px;
+    
+}
+.galeriaembrulho{
+    overflow-x: auto;
+}
+
+.galeria{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.seta-esquerda,
+seta-direita{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;   
+    background: linear-gradient(to left, transparent 0%,black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+.seta-direita{
+    left: 0;
+    right: auto;
+    bottom: 0;   
+    background: linear-gradient(to right, transparent 0%,black 200%);
+}
+    .seta-esquerda: :hover{
+    .seta-direita: :hover{
+    opacity: 1;
+    }
+
