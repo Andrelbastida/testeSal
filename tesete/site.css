@@ -1,0 +1,45 @@
+.carousel-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .carousel-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-card.active {
+    opacity: 1;
+  }
+  
+  .carousel-prev-button,
+  .carousel-next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .carousel-prev-button {
+    left: 20px;
+  }
+  
+  .carousel-next-button {
+    right: 20px;
+  }
+  
