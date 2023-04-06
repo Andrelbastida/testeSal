@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="cabeca">
         <div id="logos">
             <img id="img2Rp" src="./img/2rp-net.svg"> 
             <img src="./img/SENAI_branca.png" id="logosenai">
@@ -24,50 +24,17 @@
       
     </nav>
     <section class="carrosel">
-        <div class="container">
-            <input type="radio" name="slider" id="item-1">
-            <input type="radio" name="slider" id="item-2">
-            <input type="radio" name="slider" id="item-3">
-            <input type="radio" name="slider" id="item-4">
-            <div class="card">
-                <label class="card" for="item-1" id="song-1">
-                    <img src="./img/testes galeria/teste 1.png">
-                </label>
-                <label class="card" for="item-2" id="song-1">
-                    <img src="./img/testes galeria/teste 2.png">
-                </label>
-                <label class="card" for="item-3" id="song-1">
-                    <img src="./img/testes galeria/teste 3.png">
-                </label>
-                <label class="card" for="item-4" id="song-1">
-                    <img src="./img/testes galeria/teste 4.png">
-                </label>
+        <h1>Confira nossos projetos :</h1>
+        <div class="gallery">
+            <div class="gallery-container">
+                <img class="gallery-item" id="gallery-item-1" src="./img/testes galeria/teste 1.png" data-index="1">
+                <img class="gallery-item" id="gallery-item-2" src="./img/testes galeria/teste 2.png" data-index="2">
+                <img class="gallery-item" id="gallery-item-3" src="./img/testes galeria/teste 3.png" data-index="3">
+                <img class="gallery-item" id="gallery-item-4" src="./img/testes galeria/teste 4.png" data-index="4">
+                <img class="gallery-item" id="gallery-item-5" src="./img/testes galeria/teste 5.png" data-index="5">
             </div>
+            <div class="gallery-controls"></div>
         </div>
-
-        <!-- PRIMEIRO TESTE
-        <div class="container">
-            <button class="seta-esquerda" aria-label="voltar">seta-esquerda</button>
-            <button class="seta-direita" aria-label="proximo">seta-direita</button>
-            
-            <div class="galeriaembrulho">
-                <div class="galeria">
-                    <button class="seta-esquerda" aria-label="voltar">ᐊ</button>
-                    <button class="seta-direita" aria-label="proximo">ᐅ</button>
-
-                    <img src="./img/testes galeria/teste 1.png" class="item current-item" alt="">
-
-                    <img src="./img/testes galeria/teste 2.png" class="item current-item" alt="">
-                    
-                    <img src="./img/testes galeria/teste 3.png" class="item current-item" alt="">
-                    
-                    <img src="./img/testes galeria/teste 4.png" class="item current-item" alt="">
-
-                </div>
-            </div>
-
-        </div> 
-    -->
     </section>
 
 
@@ -75,6 +42,7 @@
 <footer>
 
 </footer>
-</body>
 <script src="./forma.js"></script>
+</body>
+
 </html>
