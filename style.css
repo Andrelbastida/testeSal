@@ -33,15 +33,20 @@ ul{
     align-items: center;
     box-shadow: 0px 5px 0px rgb(2, 32, 65);
 }
-
+header h1{
+  font-size:60px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 header {
+    align-items: center;
     width: 90%;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border: solid;
-    background-color: #94c7f4;
+    background-color: #195aa3;
     
 }
 
@@ -62,7 +67,7 @@ section{
     align-items: center;
     justify-content: center;
     border: solid;
-    background-color: #94c7f4;
+    background-color: #195aa3;
     
 }
   
@@ -141,10 +146,10 @@ section{
   .gallery-controls button:focus{
     outline: none;
   }
-  .gallery-controls-previous{
+  .gallery-controls-Voltar{
     position: relative;
   }
-  .gallery-controls-previous::before{
+  .gallery-controls-Voltar::before{
     border: solid#000;
     border-width: 0 5px 5px 0;
     content: '';
@@ -158,14 +163,14 @@ section{
     transition: left 0.15s ease-in-out;
     width: 5px;
   }
-  .gallery-controls-previous:hover::before{
+  .gallery-controls-Voltar:hover::before{
   left: -40px;
   
   }
-  .gallery-controls-next{
+  .gallery-controls-Próximo{
     position: relative;
   }
-  .gallery-controls-next::before{
+  .gallery-controls-Próximo::before{
     border: solid#000;
     border-width: 0 5px 5px 0;
     content: '';
@@ -180,7 +185,7 @@ section{
     width: 5px;
   
   }
-  .gallery-controls-next:hover::before{
+  .gallery-controls-Próximo:hover::before{
     right: -40px;
   }
   .gallery-nav{

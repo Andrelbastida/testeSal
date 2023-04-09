@@ -30,10 +30,10 @@ body{
 .caixa::before{
     content: "";
     position: absolute;
-    inset: -10px 140px;/*Preenchimento interno*/
-    background: linear-gradient(315deg, #0d93f9, #2b43de);
+    inset: -100px 0px;/*Preenchimento interno*/
+    background: linear-gradient(315deg, #0696c2, #030170);
     animation: animar 4s linear infinite;
-    transition: .5s;
+    transition: .1s;
 }
 
 @keyframes animar {

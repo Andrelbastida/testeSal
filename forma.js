@@ -1,6 +1,6 @@
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer= document.querySelector('.gallery-controls');
-const galleryControls = ['previous','next'];
+const galleryControls = ['Voltar','Próximo'];
 const galleryItems= document.querySelectorAll('.gallery-item');
 
 class Carousel{
@@ -26,7 +26,7 @@ class Carousel{
     }
 
     setCurrentState(direction){
-        if(direction.className == 'gallery-controls-previous'){
+        if(direction.className == 'gallery-controls-Voltar'){
          this.carouselArray.unshift(this.carouselArray.pop());
           }else{
             this.carouselArray.push(this.carouselArray.shift());
